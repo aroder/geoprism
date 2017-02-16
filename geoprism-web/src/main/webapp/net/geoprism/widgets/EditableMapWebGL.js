@@ -183,7 +183,7 @@
       var map = controller.getWebGLMap();
       
       controller.cancelEditing();
-      this.unselectFeature(null);
+//      this.unselectFeature(null);  // TODO: Determine what this was for
       
       // Add features to editing control
       var filter = [ "!=", "id", "" ];
